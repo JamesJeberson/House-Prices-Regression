@@ -28,202 +28,6 @@ df.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>MSSubClass</th>
-      <th>MSZoning</th>
-      <th>LotFrontage</th>
-      <th>LotArea</th>
-      <th>Street</th>
-      <th>Alley</th>
-      <th>LotShape</th>
-      <th>LandContour</th>
-      <th>Utilities</th>
-      <th>LotConfig</th>
-      <th>...</th>
-      <th>PoolArea</th>
-      <th>PoolQC</th>
-      <th>Fence</th>
-      <th>MiscFeature</th>
-      <th>MiscVal</th>
-      <th>MoSold</th>
-      <th>YrSold</th>
-      <th>SaleType</th>
-      <th>SaleCondition</th>
-      <th>SalePrice</th>
-    </tr>
-    <tr>
-      <th>Id</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td>60</td>
-      <td>RL</td>
-      <td>65.0</td>
-      <td>8450</td>
-      <td>Pave</td>
-      <td>NaN</td>
-      <td>Reg</td>
-      <td>Lvl</td>
-      <td>AllPub</td>
-      <td>Inside</td>
-      <td>...</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>2</td>
-      <td>2008</td>
-      <td>WD</td>
-      <td>Normal</td>
-      <td>208500</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20</td>
-      <td>RL</td>
-      <td>80.0</td>
-      <td>9600</td>
-      <td>Pave</td>
-      <td>NaN</td>
-      <td>Reg</td>
-      <td>Lvl</td>
-      <td>AllPub</td>
-      <td>FR2</td>
-      <td>...</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>5</td>
-      <td>2007</td>
-      <td>WD</td>
-      <td>Normal</td>
-      <td>181500</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>60</td>
-      <td>RL</td>
-      <td>68.0</td>
-      <td>11250</td>
-      <td>Pave</td>
-      <td>NaN</td>
-      <td>IR1</td>
-      <td>Lvl</td>
-      <td>AllPub</td>
-      <td>Inside</td>
-      <td>...</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>9</td>
-      <td>2008</td>
-      <td>WD</td>
-      <td>Normal</td>
-      <td>223500</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>70</td>
-      <td>RL</td>
-      <td>60.0</td>
-      <td>9550</td>
-      <td>Pave</td>
-      <td>NaN</td>
-      <td>IR1</td>
-      <td>Lvl</td>
-      <td>AllPub</td>
-      <td>Corner</td>
-      <td>...</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>2</td>
-      <td>2006</td>
-      <td>WD</td>
-      <td>Abnorml</td>
-      <td>140000</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>60</td>
-      <td>RL</td>
-      <td>84.0</td>
-      <td>14260</td>
-      <td>Pave</td>
-      <td>NaN</td>
-      <td>IR1</td>
-      <td>Lvl</td>
-      <td>AllPub</td>
-      <td>FR2</td>
-      <td>...</td>
-      <td>0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0</td>
-      <td>12</td>
-      <td>2008</td>
-      <td>WD</td>
-      <td>Normal</td>
-      <td>250000</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 80 columns</p>
-</div>
-
-
-
-
 ```python
 # Creating a DataFrame with all the columns having null values
 
@@ -236,220 +40,11 @@ df_null.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>MSZoning</th>
-      <th>LotFrontage</th>
-      <th>Alley</th>
-      <th>Utilities</th>
-      <th>Exterior1st</th>
-      <th>Exterior2nd</th>
-      <th>MasVnrType</th>
-      <th>MasVnrArea</th>
-      <th>BsmtQual</th>
-      <th>BsmtCond</th>
-      <th>...</th>
-      <th>GarageYrBlt</th>
-      <th>GarageFinish</th>
-      <th>GarageCars</th>
-      <th>GarageArea</th>
-      <th>GarageQual</th>
-      <th>GarageCond</th>
-      <th>PoolQC</th>
-      <th>Fence</th>
-      <th>MiscFeature</th>
-      <th>SaleType</th>
-    </tr>
-    <tr>
-      <th>Id</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td>RL</td>
-      <td>65.0</td>
-      <td>NaN</td>
-      <td>AllPub</td>
-      <td>VinylSd</td>
-      <td>VinylSd</td>
-      <td>BrkFace</td>
-      <td>196.0</td>
-      <td>Gd</td>
-      <td>TA</td>
-      <td>...</td>
-      <td>2003.0</td>
-      <td>RFn</td>
-      <td>2.0</td>
-      <td>548.0</td>
-      <td>TA</td>
-      <td>TA</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>WD</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>RL</td>
-      <td>80.0</td>
-      <td>NaN</td>
-      <td>AllPub</td>
-      <td>MetalSd</td>
-      <td>MetalSd</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>Gd</td>
-      <td>TA</td>
-      <td>...</td>
-      <td>1976.0</td>
-      <td>RFn</td>
-      <td>2.0</td>
-      <td>460.0</td>
-      <td>TA</td>
-      <td>TA</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>WD</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>RL</td>
-      <td>68.0</td>
-      <td>NaN</td>
-      <td>AllPub</td>
-      <td>VinylSd</td>
-      <td>VinylSd</td>
-      <td>BrkFace</td>
-      <td>162.0</td>
-      <td>Gd</td>
-      <td>TA</td>
-      <td>...</td>
-      <td>2001.0</td>
-      <td>RFn</td>
-      <td>2.0</td>
-      <td>608.0</td>
-      <td>TA</td>
-      <td>TA</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>WD</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>RL</td>
-      <td>60.0</td>
-      <td>NaN</td>
-      <td>AllPub</td>
-      <td>Wd Sdng</td>
-      <td>Wd Shng</td>
-      <td>NaN</td>
-      <td>0.0</td>
-      <td>TA</td>
-      <td>Gd</td>
-      <td>...</td>
-      <td>1998.0</td>
-      <td>Unf</td>
-      <td>3.0</td>
-      <td>642.0</td>
-      <td>TA</td>
-      <td>TA</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>WD</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>RL</td>
-      <td>84.0</td>
-      <td>NaN</td>
-      <td>AllPub</td>
-      <td>VinylSd</td>
-      <td>VinylSd</td>
-      <td>BrkFace</td>
-      <td>350.0</td>
-      <td>Gd</td>
-      <td>TA</td>
-      <td>...</td>
-      <td>2000.0</td>
-      <td>RFn</td>
-      <td>3.0</td>
-      <td>836.0</td>
-      <td>TA</td>
-      <td>TA</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>WD</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 34 columns</p>
-</div>
-
-
-
-
 ```python
 # Creating a headmap to visualize the occurance of null values
 
 sns.heatmap(df_null.isna())
 ```
-
-
-
-
-    <Axes: ylabel='Id'>
-
-
-
-
-    
-![png](output_6_1.png)
-    
-
 
 
 ```python
@@ -479,219 +74,9 @@ df_objects['MSZoning'].value_counts()
 ```
 
 
-
-
-    MSZoning
-    RL         2265
-    RM          460
-    FV          139
-    RH           26
-    C (all)      25
-    null          4
-    Name: count, dtype: int64
-
-
-
-
 ```python
 df_objects_encoded.head()
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>MSZoning_C (all)</th>
-      <th>MSZoning_FV</th>
-      <th>MSZoning_RH</th>
-      <th>MSZoning_RL</th>
-      <th>MSZoning_RM</th>
-      <th>MSZoning_null</th>
-      <th>Street_Grvl</th>
-      <th>Street_Pave</th>
-      <th>LotShape_IR1</th>
-      <th>LotShape_IR2</th>
-      <th>...</th>
-      <th>SaleType_New</th>
-      <th>SaleType_Oth</th>
-      <th>SaleType_WD</th>
-      <th>SaleType_null</th>
-      <th>SaleCondition_Abnorml</th>
-      <th>SaleCondition_AdjLand</th>
-      <th>SaleCondition_Alloca</th>
-      <th>SaleCondition_Family</th>
-      <th>SaleCondition_Normal</th>
-      <th>SaleCondition_Partial</th>
-    </tr>
-    <tr>
-      <th>Id</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>True</td>
-      <td>False</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>True</td>
-      <td>False</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>True</td>
-      <td>False</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 247 columns</p>
-</div>
-
-
 
 
 ```python
@@ -703,25 +88,6 @@ for i in df_objects_encoded.columns:
         print(i)
 ```
 
-    MSZoning_null
-    Utilities_null
-    Exterior1st_null
-    Exterior2nd_null
-    BsmtQual_null
-    BsmtCond_null
-    BsmtExposure_null
-    BsmtFinType1_null
-    BsmtFinType2_null
-    Electrical_null
-    KitchenQual_null
-    Functional_null
-    GarageType_null
-    GarageFinish_null
-    GarageQual_null
-    GarageCond_null
-    SaleType_null
-    
-
 
 ```python
 # Creating new DataFrame with the encoded columns
@@ -729,13 +95,6 @@ new_df = pd.concat([df, df_objects_encoded], axis = 1)
 
 len(df.columns), len(df_objects_encoded.columns), len(new_df.columns)
 ```
-
-
-
-
-    (74, 230, 304)
-
-
 
 
 ```python
@@ -746,242 +105,15 @@ new_df.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>MSSubClass</th>
-      <th>LotFrontage</th>
-      <th>LotArea</th>
-      <th>OverallQual</th>
-      <th>OverallCond</th>
-      <th>YearBuilt</th>
-      <th>YearRemodAdd</th>
-      <th>MasVnrArea</th>
-      <th>BsmtFinSF1</th>
-      <th>BsmtFinSF2</th>
-      <th>...</th>
-      <th>SaleType_ConLw</th>
-      <th>SaleType_New</th>
-      <th>SaleType_Oth</th>
-      <th>SaleType_WD</th>
-      <th>SaleCondition_Abnorml</th>
-      <th>SaleCondition_AdjLand</th>
-      <th>SaleCondition_Alloca</th>
-      <th>SaleCondition_Family</th>
-      <th>SaleCondition_Normal</th>
-      <th>SaleCondition_Partial</th>
-    </tr>
-    <tr>
-      <th>Id</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td>60</td>
-      <td>65.0</td>
-      <td>8450</td>
-      <td>7</td>
-      <td>5</td>
-      <td>2003</td>
-      <td>2003</td>
-      <td>196.0</td>
-      <td>706.0</td>
-      <td>0.0</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>20</td>
-      <td>80.0</td>
-      <td>9600</td>
-      <td>6</td>
-      <td>8</td>
-      <td>1976</td>
-      <td>1976</td>
-      <td>0.0</td>
-      <td>978.0</td>
-      <td>0.0</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>60</td>
-      <td>68.0</td>
-      <td>11250</td>
-      <td>7</td>
-      <td>5</td>
-      <td>2001</td>
-      <td>2002</td>
-      <td>162.0</td>
-      <td>486.0</td>
-      <td>0.0</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>70</td>
-      <td>60.0</td>
-      <td>9550</td>
-      <td>7</td>
-      <td>5</td>
-      <td>1915</td>
-      <td>1970</td>
-      <td>0.0</td>
-      <td>216.0</td>
-      <td>0.0</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>60</td>
-      <td>84.0</td>
-      <td>14260</td>
-      <td>8</td>
-      <td>5</td>
-      <td>2000</td>
-      <td>2000</td>
-      <td>350.0</td>
-      <td>655.0</td>
-      <td>0.0</td>
-      <td>...</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 267 columns</p>
-</div>
-
-
-
-
 ```python
 # Checking for NaN values in new_df 
 new_df.isna().sum()[new_df.isna().sum()>0]
 ```
 
 
-
-
-    LotFrontage     486
-    MasVnrArea       23
-    BsmtFinSF1        1
-    BsmtFinSF2        1
-    BsmtUnfSF         1
-    TotalBsmtSF       1
-    BsmtFullBath      2
-    BsmtHalfBath      2
-    GarageYrBlt     159
-    GarageCars        1
-    GarageArea        1
-    dtype: int64
-
-
-
-
 ```python
 sns.heatmap(new_df.isna())
 ```
-
-
-
-
-    <Axes: ylabel='Id'>
-
-
-
-
-    
-![png](output_15_1.png)
-    
-
 
 
 ```python
@@ -1004,13 +136,6 @@ for i in mean_columns:
 # Verifying for NaN values 
 new_df.isna().max(axis = 0).max()
 ```
-
-
-
-
-    False
-
-
 
 
 ```python
@@ -1050,13 +175,6 @@ X_train.shape, y_train.shape
 ```
 
 
-
-
-    ((1168, 266), (1168, 1))
-
-
-
-
 ```python
 # Linear Regression
 
@@ -1065,13 +183,6 @@ y1_pred = model_1.predict(X_test)
 
 mean_squared_error(y_test, y1_pred)
 ```
-
-
-
-
-    432111875.77598214
-
-
 
 
 ```python
@@ -1084,13 +195,6 @@ mean_squared_error(y_test, y2_pred)
 ```
 
 
-
-
-    4882.358049366572
-
-
-
-
 ```python
 # Random Forrest Regressor
 
@@ -1099,13 +203,6 @@ model_3.fit(X, y)
 y3_pred = model_3.predict(X_test)
 mean_squared_error(y_test, y3_pred)
 ```
-
-
-
-
-    91943249.13671516
-
-
 
 
 ```python
@@ -1120,12 +217,6 @@ plt.title('Original vs Predicted Prices')
 plt.legend()
 plt.show()
 ```
-
-
-    
-![png](output_24_0.png)
-    
-
 
 
 ```python
